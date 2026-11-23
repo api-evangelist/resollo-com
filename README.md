@@ -1,4 +1,4 @@
-# resollo-com
+# Resollo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-resollo-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://resollo.com/
+Resollo is an AI‑assisted marketplace that enables buying, selling and auctioning of products. It offers AI‑driven listing creation, automated pricing, and integrated shipping, with free plans for sellers and no hidden fees. The platform provides tools for sellers to upload photos, generate product descriptions, and connect AI agents like Claude to enhance listings. Buyers can browse curated collections, and the service includes features such as AI‑generated product profiles, automated background removal, and a subscription model for premium features. Resollo aims to streamline e‑commerce through AI, offering both free and commission‑based plans, and emphasizes privacy and data security.
+
+**Areas:** Marketplace · AI · Auctions · Fixed‑price sales
+
+## Resollo on APIs.io
+
+Everything profiled for Resollo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/resollo-com/](https://apis.io/providers/resollo-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Resollo Orders API](https://apis.io/apis/resollo-com/resollo-com-orders-api/) — The Orders API from Resollo — 1 operation(s) for orders.
+- [Resollo Products API](https://apis.io/apis/resollo-com/resollo-com-products-api/) — The Products API from Resollo — 3 operation(s) for products.
+- [Resollo Seller Status API](https://apis.io/apis/resollo-com/resollo-com-seller-status-api/) — The Seller Status API from Resollo — 1 operation(s) for seller status.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Resollo Agentic Access](https://apis.io/agentic-access/resollo-com/resollo-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DraftListing](https://apis.io/schemas/resollo-com/resollo-com-draft-listing/)
+- [PhotoUploadSession](https://apis.io/schemas/resollo-com/resollo-com-photo-upload-session/)
+- [PlaceOrderRequest](https://apis.io/schemas/resollo-com/resollo-com-place-order-request/)
+- [PlaceOrderResponse](https://apis.io/schemas/resollo-com/resollo-com-place-order-response/)
+- [ProductDetail](https://apis.io/schemas/resollo-com/resollo-com-product-detail/)
+- [SellerStatus](https://apis.io/schemas/resollo-com/resollo-com-seller-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Resollo Com Context](https://apis.io/jsonld/resollo-com/resollo-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Resollo API Rules](https://apis.io/rules/resollo-com/resollo-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Resollo Authentication](https://apis.io/security/resollo-com/resollo-com-authentication/)
+- [Resollo Domain Security](https://apis.io/security/resollo-com/resollo-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.resollo.com/)
+- [Documentation](https://www.resollo.com/en/guides)
+- [Getting started](https://www.resollo.com/en)
+- [API reference](https://www.resollo.com/.well-known/api-catalog)
+- [Pricing](https://www.resollo.com/en/subscriptions/plans)
+- [Support](https://www.resollo.com/en/contact)
+- [Blog](https://www.resollo.com/en/guides)
+- [Terms of service](https://www.resollo.com/en/terms)
+- [Privacy policy](https://www.resollo.com/en/privacy)
+- [GitHub](https://github.com/resollo)
+
+## API Evangelist rating
+
+**Kin Score 49.7** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 63.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 36.2 |
+
+**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/resollo-com/](https://apis.io/providers/resollo-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Resollo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/resollo-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
